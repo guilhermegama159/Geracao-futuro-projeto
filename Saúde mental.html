@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saúde Mental Sorocaba</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e293b,#334155);
+    min-height:100vh;
+    color:white;
+    display:flex;
+    justify-content:center;
+    padding:30px 15px;
+}
+
+.container{
+    width:100%;
+    max-width:700px;
+}
+
+.card{
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(12px);
+    border:1px solid rgba(255,255,255,0.15);
+    border-radius:24px;
+    padding:35px;
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+}
+
+.logo{
+    width:110px;
+    height:110px;
+    margin:auto;
+    border-radius:50%;
+    background:linear-gradient(135deg,#38bdf8,#22c55e);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+h1{
+    text-align:center;
+    font-size:2rem;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#cbd5e1;
+    line-height:1.6;
+    margin-bottom:30px;
+}
+
+.section-title{
+    margin-top:25px;
+    margin-bottom:15px;
+    color:#93c5fd;
+    font-size:1.1rem;
+}
+
+.btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    text-decoration:none;
+    color:white;
+    padding:16px;
+    border-radius:14px;
+    margin-bottom:12px;
+    font-weight:600;
+    transition:.25s;
+    text-align:center;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+.cvv{
+    background:linear-gradient(135deg,#22c55e,#16a34a);
+}
+
+.emergencia{
+    background:linear-gradient(135deg,#ef4444,#dc2626);
+}
+
+.caps{
+    background:linear-gradient(135deg,#3b82f6,#2563eb);
+}
+
+.psicologia{
+    background:linear-gradient(135deg,#8b5cf6,#7c3aed);
+}
+
+.info{
+    background:linear-gradient(135deg,#06b6d4,#0891b2);
+}
+
+.box{
+    background:rgba(255,255,255,0.06);
+    border-radius:15px;
+    padding:18px;
+    margin-top:20px;
+    line-height:1.8;
+}
+
+.footer{
+    text-align:center;
+    margin-top:25px;
+    color:#cbd5e1;
+    font-size:.95rem;
+}
+
+.footer strong{
+    color:white;
+}
+
+.warning{
+    margin-top:20px;
+    background:rgba(239,68,68,.15);
+    border-left:4px solid #ef4444;
+    padding:15px;
+    border-radius:10px;
+    line-height:1.6;
+}
+
+@media(max-width:600px){
+    h1{
+        font-size:1.6rem;
+    }
+
+    .card{
+        padding:25px;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<div class="card">
+
+<div class="logo">🧠</div>
+
+<h1>Saúde Mental Sorocaba</h1>
+
+<p class="subtitle">
+Você não está sozinho(a). Se estiver passando por um momento difícil,
+existem pessoas e serviços preparados para ajudar.
+</p>
+
+<h2 class="section-title">📞 Ajuda Imediata</h2>
+
+<a class="btn cvv" href="tel:188">
+💚 CVV - Centro de Valorização da Vida (188)
+</a>
+
+<a class="btn emergencia" href="tel:192">
+🚑 Emergência SAMU (192)
+</a>
+
+<a class="btn emergencia" href="tel:190">
+🚔 Polícia Militar (190)
+</a>
+
+<h2 class="section-title">🏥 CAPS Sorocaba</h2>
+
+<a class="btn caps" href="https://maps.google.com/?q=Rua+Ricardo+Marcos+de+Madureira+Moreira+61+Sorocaba">
+📍 CAPS Alegria de Viver
+</a>
+
+<a class="btn caps" href="https://maps.google.com/?q=Avenida+Itavuvu+1083+Sorocaba">
+📍 CAPS Arte do Encontro
+</a>
+
+<a class="btn caps" href="https://maps.google.com/?q=Rua+Guatemala+185+Sorocaba">
+📍 CAPS Viver em Liberdade
+</a>
+
+<a class="btn caps" href="https://maps.google.com/?q=Rua+Luiza+de+Carvalho+108+Sorocaba">
+📍 CAPS IJ Ser e Conviver
+</a>
+
+<h2 class="section-title">💙 Dependência Química</h2>
+
+<a class="btn psicologia" href="https://maps.google.com/?q=Rua+Giovanni+Boletta+35+Sorocaba">
+CAPS AD Saca Só
+</a>
+
+<a class="btn psicologia" href="https://maps.google.com/?q=Rua+Antonio+Soares+161+Sorocaba">
+CAPS AD Roda Viva
+</a>
+
+<h2 class="section-title">🧑‍⚕️ Atendimento Psicológico</h2>
+
+<a class="btn psicologia" href="tel:+5515991275937">
+Instituto Psique
+</a>
+
+<a class="btn psicologia" href="tel:+551534121091">
+Clínica de Psicologia UNIP
+</a>
+
+<h2 class="section-title">🌐 Informações Úteis</h2>
+
+<a class="btn info" href="https://www.cvv.org.br" target="_blank">
+Site Oficial do CVV
+</a>
+
+<a class="btn info" href="https://www.gov.br/saude" target="_blank">
+Ministério da Saúde
+</a>
+
+<div class="warning">
+<strong>⚠️ Procure ajuda imediatamente</strong> se você ou alguém próximo
+estiver apresentando pensamentos de autolesão, suicídio ou uma crise emocional grave.
+</div>
+
+<div class="box">
+<strong>💛 Lembre-se:</strong><br>
+Pedir ajuda não é sinal de fraqueza. Conversar com alguém pode ser o primeiro passo para a recuperação.
+</div>
+
+<div class="footer">
+<strong>Campanha de Conscientização sobre Saúde Mental</strong><br>
+Sorocaba - SP
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
